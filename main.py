@@ -100,8 +100,7 @@ class MyBot(BaseBot):
                 self.user_positions = {}
 
 
-          async def on_start(self, SessionMetadata: SessionMetadata)-> None:
-              print (f"Starting: {SessionMetadata}")
+        
 
 
 
