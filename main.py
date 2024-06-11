@@ -209,10 +209,10 @@ class MyBot(BaseBot):
 
           async def get_bot_balance(self):
                 try:
-                    # الحصول على معلومات المحفظة
+                   
                     wallet_info = await self.highrise.get_wallet()
 
-                    # تحليل البيانات المسترجعة للحصول على الرصيد
+                    
                     balance = wallet_info.content[0].amount
 
                     return balance
