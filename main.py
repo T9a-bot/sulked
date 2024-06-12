@@ -267,7 +267,6 @@ class MyBot(BaseBot):
                 await self.highrise.teleport(user.id, Position(14, 15 , 19.5))
             if message == "!4":
                 await self.highrise.teleport(user.id, Position(13.5, 20 , 4.5))
-            print (f"Received: {message} from {user.username}")
             if message.startswith("/teleport ")and user.username in  [ "suIked", "UNlMPRESSED", "dollparts666", "Ayristaa", "sunniivaa","Tancorix", "Lil.Sushi", "bratpixie"]:
                 
                     await self.teleporter(message)
