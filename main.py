@@ -205,7 +205,7 @@ class MyBot(BaseBot):
                     await self.highrise.teleport(user_dict["id"], user_dict["position"])
 
           async def on_user_join(self, user: User, position: Position | AnchorPosition):
-            await self.highrise.chat(f" Welcome to FIND A DATE💗. @{user.username},  Enjoy your stay, find new people and possibly the love of your life. If you need assistance, request a mod in chat.")
+            await self.highrise.chat(f" Welcome to FIND A Bebe💗. @{user.username},  Enjoy your stay, find new people and possibly the love of your life. If you need assistance, request a mod in chat.")
 
           async def get_bot_balance(self):
                 try:
